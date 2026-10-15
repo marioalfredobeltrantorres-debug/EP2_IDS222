@@ -1,0 +1,10 @@
+centro_id,nombre_centro,municipio,region,latitud,longitud
+C01,Hub Santa Ana,Santa Ana,Occidente,13.9942,-89.5597
+C02,Hub Metapán,Metapán,Occidente,14.3333,-89.45
+C03,Hub Acajutla,Acajutla,Occidente,13.5917,-89.8281
+C04,Hub Soyapango,Soyapango,Centro,-89.137,13.7102
+C05,Hub Apopa,Apopa,Centro,13.8072,-89.1793
+C06,Hub Quezaltepeque,Quezaltepeque,Centro,13.8333,-89.2833
+C07,Hub San Miguel,San Miguel,Oriente,13.4833,-88.1833
+C08,Hub Santiago de María,Santiago de María,Oriente,13.4833,-88.4667
+C09,Hub San Francisco Gotera,San Francisco Gotera,Oriente,13.6967,-88.105

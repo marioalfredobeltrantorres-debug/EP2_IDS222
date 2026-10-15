@@ -1,0 +1,27 @@
+ITCA-FEPADE - Ingeniería en Desarrollo de Software
+Evaluación Práctica 2 / Gestión de Datos para IA y Big Data - IDS222
+===========================================================
+
+TIEMPO: 3 horas | EQUIPOS: 4 o 5 integrantes | VERSIÓN ÚNICA
+
+1. Abra el documento Word de la evaluación antes de comenzar.
+2. Trabaje solamente con los tres archivos dentro de datos/:
+      operacion_centros.csv
+      centros_geograficos.csv
+      demanda_paquetes_diaria.csv
+3. No altere los archivos oficiales. Genere salidas derivadas.
+4. Revise los nombres exactos y formatos del apartado 7 del Word.
+5. Entregue un ZIP por grupo: EP2_EquipoXX.zip, con todos los artefactos requeridos.
+   Se aceptan subcarpetas; cada archivo exigido debe aparecer UNA SOLA VEZ.
+6. Use punto decimal, CSV UTF-8, fecha AAAA-MM-DD y valores numéricos sin unidades.
+7. Emplee el código del equipo en equipo.json; su carnet se registra en integrantes.csv.
+8. Sus justificaciones deben citar cifras de las ejecuciones que pueden demostrar en vivo.
+
+OBSERVACIÓN
+El material de las Guías 5-8 y documentación técnica está permitido como consulta.
+La evaluación se centra en decisiones, ejecución propia e interpretación. No se permite
+transferir estas tareas a asistentes generativos de IA ni a terceros durante el examen.
+
+PROBAR EL ENTORNO ANTES DEL INICIO
+Power BI Desktop, acceso a ArcGIS Map Viewer o recurso institucional aprobado,
+Python con pandas, numpy, scikit-learn, Jinja2 y exportación Word o PDF.
