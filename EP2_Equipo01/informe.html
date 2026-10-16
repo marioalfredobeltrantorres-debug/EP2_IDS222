@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Informe semanal de capacidad de despacho - SmartRoute Logistics</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 860px; margin: 2rem auto; color: #222; line-height: 1.5; }
+        h1 { color: #1f3a5f; margin-bottom: 0.5rem; }
+        .kpis { display: flex; gap: 1rem; margin: 1.5rem 0; }
+        .kpi { flex: 1; background: #f0f4f8; border-radius: 8px; padding: 1rem; text-align: center; border: 1px solid #dcdfe6; }
+        .kpi b { display: block; font-size: 1.5rem; color: #1f3a5f; margin-top: 0.3rem; }
+        img { max-width: 100%; height: auto; margin: 1.5rem 0; border-radius: 6px; }
+        h2 { color: #2c3e50; border-bottom: 2px solid #ecf0f1; padding-bottom: 0.3rem; margin-top: 1.8rem; }
+        footer { font-size: 0.8rem; color: #666; margin-top: 2.5rem; padding-top: 1rem; border-top: 1px solid #eee; word-break: break-all; }
+    </style>
+</head>
+<body>
+    <h1>Informe semanal de capacidad de despacho - SmartRoute Logistics</h1>
+    <p><b>Periodo analizado:</b> 2026-01-05 a 2026-07-03</p>
+    
+    <div class="kpis">
+        <div class="kpi">Capacidad total<b>1,577,212</b></div>
+        <div class="kpi">Demanda total<b>1,692,646</b></div>
+        <div class="kpi">Déficit total<b>172,314</b></div>
+        <div class="kpi">Cobertura (%)<b>89.82%</b></div>
+    </div>
+
+    <img src="grafico.png" alt="Demanda vs Capacidad">
+
+    <h2>Hallazgo Principal</h2>
+    <p>El centro C07 concentra 36,725 paquetes de déficit (21.3% del total). En días con campaña programada, el déficit medio por registro asciende a 201.8 paquetes frente a 81.7 en días normales.</p>
+
+    <h2>Recomendación</h2>
+    <p>Priorizar la ampliación de capacidad operativa o la redistribución de rutas hacia el centro C07, reforzando la logística de despacho especialmente durante las jornadas de campañas activas.</p>
+
+    <h2>Limitación Real</h2>
+    <p>Los datos analizados corresponden al periodo de operación y evalúan el déficit de forma independiente por jornada sin acumular rezago de paquetes no entregados para el día siguiente.</p>
+
+    <footer>Fuente: operacion_centros.csv | Registros: 1620 | SHA-256: dddae40c4c62332c908d5bb9095d067e5eb4431514349c5f9641ac804c17e1db</footer>
+</body>
+</html>

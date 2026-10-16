@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>{{ titulo }}</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 860px; margin: 2rem auto; color: #222; line-height: 1.5; }
+        h1 { color: #1f3a5f; margin-bottom: 0.5rem; }
+        .kpis { display: flex; gap: 1rem; margin: 1.5rem 0; }
+        .kpi { flex: 1; background: #f0f4f8; border-radius: 8px; padding: 1rem; text-align: center; border: 1px solid #dcdfe6; }
+        .kpi b { display: block; font-size: 1.5rem; color: #1f3a5f; margin-top: 0.3rem; }
+        img { max-width: 100%; height: auto; margin: 1.5rem 0; border-radius: 6px; }
+        h2 { color: #2c3e50; border-bottom: 2px solid #ecf0f1; padding-bottom: 0.3rem; margin-top: 1.8rem; }
+        footer { font-size: 0.8rem; color: #666; margin-top: 2.5rem; padding-top: 1rem; border-top: 1px solid #eee; word-break: break-all; }
+    </style>
+</head>
+<body>
+    <h1>{{ titulo }}</h1>
+    <p><b>Periodo analizado:</b> {{ periodo }}</p>
+    
+    <div class="kpis">
+        <div class="kpi">Capacidad total<b>{{ capacidad_total }}</b></div>
+        <div class="kpi">Demanda total<b>{{ demanda_total }}</b></div>
+        <div class="kpi">Déficit total<b>{{ deficit_total }}</b></div>
+        <div class="kpi">Cobertura (%)<b>{{ cobertura }}%</b></div>
+    </div>
+
+    <img src="grafico.png" alt="Demanda vs Capacidad">
+
+    <h2>Hallazgo Principal</h2>
+    <p>{{ hallazgo }}</p>
+
+    <h2>Recomendación</h2>
+    <p>{{ recomendacion }}</p>
+
+    <h2>Limitación Real</h2>
+    <p>{{ limitacion }}</p>
+
+    <footer>Fuente: operacion_centros.csv | Registros: {{ registros }} | SHA-256: {{ sha256 }}</footer>
+</body>
+</html>
